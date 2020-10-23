@@ -1,0 +1,136 @@
+html * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0;
+   padding: 0;
+  }
+  img {
+    max-width: 100%;
+  }
+  header {
+    background-image: url("https://i.imgur.com/r8CGcjs.jpg"); opacity: 0.9;
+    height: 128px;
+  }
+  .nome {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .nome:hover {
+    text-decoration: underline;
+  }
+  h1 {
+    color: red;
+    font-size: 50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:black;
+  }
+  .centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-nav {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .grid-nav-item {
+    color: #424242;
+    padding: 18px 24px;
+    text-align: center;
+    text-decoration: none;
+}
+  .grid-nav-item:hover {
+    background-color: #d3d3d3;
+    text-decoration: none;
+    border-bottom:3px solid #EA0000;
+  }
+  #titulo {
+    grid-column: 1 / 4;
+  }
+  .container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  h2 {
+      text-align: center;
+      padding: 2%;
+  }
+  p {
+      text-align: justify;
+      padding: 1%;
+  }
+  .form-contact {
+    width: 100%;
+  }
+  .form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+  }
+  
+  .form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: red;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #500707;
+    border-right: 1px solid #500707;
+    transition: 1s;
+  }
+
+  .form-contact-button:hover {
+    opacity: 1; 
+}
+ footer {
+    background-color: black;
+    color: #fff;
+    height: 128px;
+  }
+  small {
+    font-size: 15px;
+  }
+  
